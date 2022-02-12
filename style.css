@@ -3,7 +3,7 @@ html {
 }
 body {
     height: 98%;
-    background-color: rgb(194, 194, 250);
+    background-color: #6BFBCE;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,21 +15,20 @@ body {
     justify-content: center;
     flex-shrink: 1;
     height: min-content;
-    background-color: red;
 }
 #buttonClear {
     padding: 20px;
-    background-color: rgb(56, 154, 187);
+    background-color: #255ADF;    ;
     font-size: large;
     font-weight: bold;
     color: honeydew;
     border-radius: 10px;
     border-style: dotted;
-    border-color: rgb(255, 8, 8);
+    border-color: #008A65;
 }
 #boxContainer, #buttonContainer {
     width: 900px;
-    padding: 0 5px;
+    background-color: #1EC198;
 
 }
 #boxContainer {
@@ -39,12 +38,10 @@ body {
     flex-wrap: wrap;
     justify-content: stretch;
     align-items: stretch;
-    background-color: lightsalmon;
 }
 .smallBox {
     flex-grow: 1;
     flex-shrink: 1;
-    background-color:goldenrod;
     width: 24%;
     height: auto;
     border-style: solid;
