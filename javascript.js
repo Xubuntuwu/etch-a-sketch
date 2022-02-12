@@ -16,7 +16,7 @@ function colorChange () { //function that gets inserted into addeventlistener of
 }
 
 function buttonPress() { //when clear button is pressed
-    let rowSquares = prompt('How many squars would you like in each row? Max=30.');
+    let rowSquares = prompt('How many squars would you like in each row? Max=100.');
     if (rowSquares>0 && rowSquares<=100) { 
         boxContainer.innerHTML = amountOfBoxes(Math.pow(rowSquares,2));
         widthSmallBox = 100/boxesPerRow;
