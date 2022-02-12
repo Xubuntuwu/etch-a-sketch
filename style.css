@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+}
+body {
+    height: 98%;
+    background-color: rgb(194, 194, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 1;
+    height: min-content;
+    background-color: red;
+}
+#buttonClear {
+    padding: 20px;
+    background-color: rgb(56, 154, 187);
+    font-size: large;
+    font-weight: bold;
+    color: honeydew;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: rgb(255, 8, 8);
+}
+#boxContainer, #buttonContainer {
+    width: 900px;
+    padding: 0 5px;
+
+}
+#boxContainer {
+    height: 100%;
+    display: flex;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: stretch;
+    background-color: lightsalmon;
+}
+.smallBox {
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color:goldenrod;
+    width: 24%;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border: none;
+}
